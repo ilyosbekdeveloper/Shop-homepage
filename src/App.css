@@ -1,0 +1,51 @@
+.img-btn img{
+  width: 30px;
+  height:30px;
+  transition: .3s;
+}
+.img-btn:hover img{
+    filter: brightness(0) invert(1);
+}
+.box img{
+  width: 100%;
+}
+.box{
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 2rem 1rem;
+  height: 400px;
+  position: relative;
+}
+.box .btn{
+  position: absolute;
+  bottom: 10px;
+  /* width: 70%; */
+  left: 0;
+  transform: translate(50%);
+  /* right: 0; */
+}
+.under{
+  text-decoration: line-through;
+}
+.sale{
+  position: relative;
+}
+.sale::after{
+  position: absolute;
+  content: 'Sale';
+  background-color: black;
+  color: #fff;
+  right: 10px;
+  top: 10px;
+  padding: 0px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.icon-img > div img{
+  width: 20px;
+  height: 20px;
+}
+.box-title h4{
+  margin-top: 1rem;
+}
